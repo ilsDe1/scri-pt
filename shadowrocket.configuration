@@ -561,14 +561,14 @@ Photomath =type=http-response,script-path=https://raw.githubusercontent.com/iSte
 Photoshop =type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Photoshop.json,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,max-size=131072,requires-body=true,timeout=10,enable=true
 Lightroom =type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/Lightroom.json,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts,max-size=131072,requires-body=true,timeout=10,enable=true
 Djay = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/djay.json,pattern=^https:\/\/app\.algoriddim\.com\/api\/v1\/validate-receipt,max-size=131072,requires-body=true,timeout=10,enable=true
-Vllo = 
-vizmato 
-reface =
+Vllo = 0
+vizmato 0
+reface =0
 mojo = type = http-response, script-path=https://raw.githubusercontent.com/iSteal-it/script/main/mojo.json,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$),max-size=131072,requires-body=true,timeout=10,enable=true
-bussu 
-calm =
-unfold =
-mosaic = 
+bussu 0
+calm =0
+unfold =0
+mosaic = 0
 inshot = type=http-response,script-path=https://raw.githubusercontent.com/ehmedjamil/script/main/Inshot.json,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=true,timeout=10,enable=true
 vsco = type=http-response,script-path=https://raw.githubusercontent.com/ehmedjamil/script/main/vsco.json,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$),requires-body=true,timeout=10,enable=true
 
