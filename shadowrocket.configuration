@@ -565,6 +565,7 @@ mojo = type = http-response, script-path=https://raw.githubusercontent.com/iStea
 inshot = type=http-response,script-path=https://raw.githubusercontent.com/ehmedjamil/script/main/Inshot.json,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=true,timeout=10,enable=true
 vsco = type=http-response,script-path=https://raw.githubusercontent.com/ehmedjamil/script/main/vsco.json,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$),requires-body=true,timeout=10,enable=true
 
+
 [MITM]
 hostname = api-kinemaster-assetstore.kinemasters.com,us-central1-alight-creative.cloudfunctions.net,api.picsart.com,api.funimate.com,lapi.photomath.net,lcs-mobile-cops.adobe.io,api.revenuecat.com,app.algoriddim.com,buy.itunes.apple.com,web.vizmato.com,api.reface.video,api.revenuecat.com,api.busuu.com,api.calm.com,www.calm.com,api.unfold.app,buy.itunes.apple.com,api.revenuecat.com
 ca-passphrase = Shadowrocket
