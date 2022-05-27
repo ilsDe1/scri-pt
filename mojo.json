@@ -1,61 +1,19 @@
 var obj = JSON.parse($response.body);
 
 obj={
-  "attributes_error_response": {
-    "attribute_errors": [
-      {
-        "key_name": "$idfa",
-        "message": "IDFA cannot be modified."
-      },
-      {
-        "key_name": "$idfv",
-        "message": "IDFV cannot be modified."
-      },
-      {
-        "key_name": "$appsflyerId",
-        "message": "AppsFlyer ID cannot be modified."
-      },
-      {
-        "key_name": "$fbAnonId",
-        "message": "Facebook Anonymous ID cannot be modified."
-      }
-    ],
-    "code": 7263,
-    "message": "Some subscriber attributes keys were unable to be saved."
-  },
-  "request_date": "2022-05-27T17:04:57Z",
-  "request_date_ms": 1653671097625,
+  "request_date": "2022-05-27T17:04:49Z",
+  "request_date_ms": 1653671089729,
   "subscriber": {
-    "entitlements": {
-      "pro": {
-        "expires_date": "2022-05-30T16:59:44Z",
-        "grace_period_expires_date": null,
-        "product_identifier": "video.mojo.pro.monthly",
-        "purchase_date": "2022-05-27T16:59:44Z"
-      }
-    },
-    "first_seen": "2021-12-05T13:54:55Z",
-    "last_seen": "2022-05-27T16:59:16Z",
-    "management_url": "https://apps.apple.com/account/subscriptions",
+    "entitlements": {},
+    "first_seen": "2022-05-13T19:06:18Z",
+    "last_seen": "2022-05-23T18:43:23Z",
+    "management_url": null,
     "non_subscriptions": {},
-    "original_app_user_id": "3bhj8BGG3IVxeuI1XWlLFznwnkh1",
+    "original_app_user_id": "1zl0nx0HQRZbtI0VY8r7TxPEG8h1",
     "original_application_version": "327",
     "original_purchase_date": "2020-08-28T02:07:10Z",
     "other_purchases": {},
-    "subscriptions": {
-      "video.mojo.pro.monthly": {
-        "billing_issues_detected_at": null,
-        "expires_date": "2022-05-30T16:59:44Z",
-        "grace_period_expires_date": null,
-        "is_sandbox": false,
-        "original_purchase_date": "2022-05-27T16:59:45Z",
-        "ownership_type": "PURCHASED",
-        "period_type": "trial",
-        "purchase_date": "2022-05-27T16:59:44Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": null
-      }
-    }
+    "subscriptions": {}
   }
 }
 $done({body: JSON.stringify(obj)});
