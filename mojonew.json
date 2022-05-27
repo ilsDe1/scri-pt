@@ -1,0 +1,19 @@
+var obj = JSON.parse($response.body);
+
+obj={
+  "request_date": "2022-05-27T17:04:49Z",
+  "request_date_ms": 1653671089729,
+  "subscriber": {
+    "entitlements": {},
+    "first_seen": "2022-05-13T19:06:18Z",
+    "last_seen": "2022-05-23T18:43:23Z",
+    "management_url": null,
+    "non_subscriptions": {},
+    "original_app_user_id": "1zl0nx0HQRZbtI0VY8r7TxPEG8h1",
+    "original_application_version": "327",
+    "original_purchase_date": "2020-08-28T02:07:10Z",
+    "other_purchases": {},
+    "subscriptions": {}
+  }
+}
+$done({body: JSON.stringify(obj)});
