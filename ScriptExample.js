@@ -4,7 +4,7 @@ obj =  {
   "status": "ok",
   "is_valid": true,
   "expiration_date": "2023-07-25T12:41:23Z",
-  "expiration_date_unix": 1658752883,
+  "expiration_date_unix": 1690046947,
   "is_trial": true,
   "processing_count": 0,
   "is_introductory_used": true,
