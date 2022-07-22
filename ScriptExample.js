@@ -1,6 +1,6 @@
 var obj = JSON.parse($response.body);
 
-obj =  {{
+obj =  {
   "status": "ok",
   "is_valid": true,
   "expiration_date": "2022-07-25T12:41:23Z",
@@ -20,26 +20,4 @@ obj =  {{
     "subscription_valid": false
   }
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $done({body: JSON.stringify(obj)});
-
