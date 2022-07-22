@@ -17,7 +17,7 @@ obj =  {
   "platform": "ios",
   "device_user_info": {
     "auth_type": "",
-    "subscription_valid": false
+    "subscription_valid": true
   }
 }
 $done({body: JSON.stringify(obj)});
