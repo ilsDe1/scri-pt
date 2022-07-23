@@ -1,0 +1,44 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "code": 0,
+  "data": {
+    "activityInfos": [
+      {
+        "abTesting": 0,
+        "activityName": "Promotional Offer",
+        "activityType": 5,
+        "description": "",
+        "endTime": 1775200080,
+        "id": 109,
+        "materialInfos": [],
+        "periodicFreeFeatureInfos": [],
+        "productInfos": [
+          {
+            "activityProduct": {},
+            "defaultProduct": {
+              "productId": "com.magicv.AirBrush.sub.allAccess.1year.newus.fullPrice",
+              "promotionalOfferId": "10Dollar6Months"
+            },
+            "isSubscription": true,
+            "productType": "year"
+          },
+          {
+            "activityProduct": {},
+            "defaultProduct": {
+              "productId": "com.magicv.AirBrush.sub.allAccess.1month.newus.fullPrice",
+              "promotionalOfferId": "HalfOff6Months"
+            },
+            "isSubscription": true,
+            "productType": "month"
+          }
+        ],
+        "response": {},
+        "startTime": 1541056080,
+        "title": ""
+      }
+    ]
+  },
+  "message": ""
+}
+$done({body: JSON.stringify(obj)});
