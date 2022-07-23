@@ -1,0 +1,13 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "encryptData": "Tj9hbdlMI6QvUmU51dPMleU52EpS+R1GsthEY0gvHFwHVV8Du8HuNadKbtqCoxXhWYH9B4bHTGG96yoxrLGb9WTnMCUDNFC8omCktAf/VOZL3D0QakQbYL192CXAj6glbDaieWymYEXVBQhZPPz6jSXFvnFXL+hCfbKLvr5RjogBuv/jE4hTS4885qH3wgYCxih2mRRtBMa9mSQIFIRWppD1lU67Fd5LqSVrnrCe+6AI8r2JbJmGznlsTz6P8rxmrCiq/9gUtgF/Sdz7z/r1AJyZUb2mn0hB7mtcsgk17cbKNP4F//psKREdkRWPA2ymnoKd6RdRoKQNX8uXRkB5y0LtnmHT0fDwgNFU7kx+JTIH7VvGlek4s/QnJP+LtLBITciwrB1xTzxwXjqOR4lSqIYUQ95GvoQTXwD0Sj4838yCA54QmaPhMgJsFb56BzpglGH2mYr9iFk+qEojdaUsic7SRH4PWVe//6UvEZ9PbJLGGXT6cwykOTFRD/bzEXTUHD+fXxiZztx1PF7m7gx+HRakPIlasZ/BuAdwt5HrTbwjF2A6djFLoi4G4beCurSEJTpKTTzSs4ZAUGbh5OiPpAMZuYXQUHsSAE6l23MYx7tQkl8o9N19bvIM9n+QRnjXVm69DYRWf7bOKv8jLsoxDv1Gw0nTtg6yDz7BwXHuroAEUiN7GFW0m0fG9GesgEkaLbOoR7RBUvMb0wOmDGmhe5wqqIL20i7elLA8v8RfSeHtgADdfX7YtisbiHK/g1UlBl/J6XJGjJ1GkM9mnJ2vLVZd3Du4px7g10xRAEGH1eeqC+JXoZAopHCnu6b151nmVwtpJ5RqdChO1YL0sT+4mzYflxpWbegI3VlH4klvd15WyJWXVjN+OOkbUD9HdftT",
+    "encryptKey": "VVh/c5fMijPfhNQ+fYyy0DSSCp/UO6snqdUwV4gYoJ5B42ctjrHA6eI06pO01Q+z4VaPfGNvfuVJ8r8+AFAz9dCv4304+u7mevGtD/A30IxhmqlC7WTY03vwf6rB5x7Orww36t3PNC+QiXVIEbgPxzXFg/+D+AhGk2OJoq2WZp8=",
+    "subStatus": 1
+  }
+}
+$done({body: JSON.stringify(obj)});
