@@ -1,0 +1,12 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "code": 0,
+  "message": "success",
+  "data": {
+    "appUserId": "2558343042",
+    "needSubmitProductInfo": 0,
+    "server": ""
+  }
+}
+$done({body: JSON.stringify(obj)});
