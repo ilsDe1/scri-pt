@@ -1,0 +1,27 @@
+var obj = JSON.parse($response.body);
+
+obj = {
+  "request_date_ms" : 1666277306606,
+  "request_date" : "2022-10-20T14:48:26Z",
+  "subscriber" : {
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "2022-05-13T19:08:53Z",
+    "original_application_version" : "5347",
+    "other_purchases" : {
+
+    },
+    "management_url" : null,
+    "subscriptions" : {
+
+    },
+    "entitlements" : {
+
+    },
+    "original_purchase_date" : "2021-12-12T15:07:50Z",
+    "original_app_user_id" : "76960432",
+    "last_seen" : "2022-05-14T23:11:30Z"
+  }
+}
+$done({body: JSON.stringify(obj)});
