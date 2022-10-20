@@ -1,0 +1,38 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "request_date_ms" : 1666277257366,
+  "request_date" : "2022-10-20T14:47:37Z",
+  "subscriber" : {
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "2022-10-20T14:45:20Z",
+    "original_application_version" : "6024",
+    "other_purchases" : {
+
+    },
+    "management_url" : "https://apps.apple.com/account/subscriptions",
+    "subscriptions" : {
+      "com.avcr.funimate.ProSubscription.weekly.increased" : {
+        "is_sandbox" : false,
+        "ownership_type" : "PURCHASED",
+        "billing_issues_detected_at" : null,
+        "period_type" : "trial",
+        "expires_date" : "2022-10-27T14:47:31Z",
+        "grace_period_expires_date" : null,
+        "unsubscribe_detected_at" : null,
+        "original_purchase_date" : "2022-10-20T14:47:32Z",
+        "purchase_date" : "2022-10-20T14:47:31Z",
+        "store" : "app_store"
+      }
+    },
+    "entitlements" : {
+
+    },
+    "original_purchase_date" : "2022-08-01T23:12:10Z",
+    "original_app_user_id" : "$RCAnonymousID:a615f35a9594444e85c5720dc313e645",
+    "last_seen" : "2022-10-20T14:45:20Z"
+  }
+}
+$done({body: JSON.stringify(obj)});
