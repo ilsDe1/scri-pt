@@ -1,0 +1,239 @@
+var obj = JSON.parse($response.body);
+
+obj =  {
+  "me" : {
+    "non_consumables_ids" : [
+
+    ],
+    "active_subscriptions_ids" : [
+
+    ],
+    "privacy_notice" : {
+      "required_consents" : [
+
+      ],
+      "is_at_least_16" : "unknown",
+      "last_acknowledged_version" : "1.0.0"
+    },
+    "unique_id" : "85E00FA9-8CFA-459B-9095-E7FA0BD52783",
+    "active_bundle_subscriptions" : [
+
+    ],
+    "is_spooner" : false,
+    "terms_of_service" : {
+      "last_accepted_version" : "1.2.0"
+    }
+  },
+  "settings" : {
+    "__is_testflight__" : false,
+    "projects_tab_empty_state" : false,
+    "paywall_frequency_and_location" : [
+      {
+        "position" : "onboarding",
+        "frequency" : 1
+      },
+      {
+        "position" : "project_start",
+        "frequency" : 1
+      },
+      {
+        "position" : "project_export",
+        "frequency" : 0
+      },
+      {
+        "position" : "session_start",
+        "frequency" : 1
+      }
+    ],
+    "__identity__" : {
+      "token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImY1YWVmMWQ0ODg2YjQwZDY4MTIzZTk5OWQ4YWY5ZDljIn0.eyJwYXlsb2FkIjp7ImJhY2tlbmRfaWQiOiI4NUUwMEZBOS04Q0ZBLTQ1OUItOTA5NS1FN0ZBMEJENTI3ODMiLCJ1c2VyX2lkIjoiNDZFRjk5MzAtMzI1MC00QUQzLUI3Q0MtMDQ1MUQyM0ZEOEE1IiwiaXNfZnJlZSI6ZmFsc2UsImlzX3Nwb29uZXIiOmZhbHNlLCJpc19zdWJzY3JpYmVkIjpmYWxzZSwiY3VycmVudF9pbnN0YWxsYXRpb25fdGltZSI6IjIwMjItMDctMzBUMjM6MTY6MzUrMDA6MDAiLCJmaXJzdF9pbnN0YWxsYXRpb25fdGltZSI6IjIwMjItMDctMzBUMjM6MTY6MzUrMDA6MDAiLCJwcml2YWN5X3BvbGljeSI6eyJsYXN0X2Fja25vd2xlZGdlZF92ZXJzaW9uIjoiMS4wLjAifSwic2V0dGluZ3MiOnt9fSwiaXNzIjoib3JhY2xlMiIsImlhdCI6MTY3MDU5NTQxOCwibmJmIjoxNjcwNTk1NDE4LCJleHAiOjE2NzA2ODE4MTh9.0jNOYIQt682wCZyEFnFXKc74tK62PNnPwfCzA1wqaXw",
+      "expiration" : "2022-12-10T14:16:58.426923+00:00"
+    },
+    "crisper_js5" : "// disabled",
+    "subscription_notrial_product_id" : "alightcreative.motion.1w_t10",
+    "__terms_of_service_version__" : "1.2.0",
+    "crisper_js6" : "// disabled",
+    "__privacy_notice_version__" : "1.0.0",
+    "create_project_bigger_plus_button" : false,
+    "premium_effects_segment_id" : "com.alightcreative.premiumEffects.controlSegment",
+    "onboarding_show_skip_button" : false,
+    "is_try_it_first_available" : true,
+    "__privacy_policy_url__" : "https://support.bendingspoons.com/privacy.html?app=1459833443&version=1.0.0",
+    "__terms_of_service_effective_date__" : "2022-10-19T12:00:00+00:00",
+    "crisper_js7" : "// disabled",
+    "landing_tab" : "landing_tab_home",
+    "crisper_js0" : "function main(context) {       return {         __type: \"paywall\",               hook: context.hook,         paywallType: \"checkbox_pro\",         normalProductId: \"alightcreative.motion.1w_t10\",         freeTrialProductId: \"alightcreative.motion.1w_1w_t10\"       }   }",
+    "__is_baseline__" : false,
+    "crisper_js8" : "// disabled",
+    "features_with_new_badge" : [
+
+    ],
+    "__encryption_public_key__" : "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6WMNkl4avAdHhYGc20hq\n8DcVtWanEtvuzM7g80Pe8Tv+eyrGyO1+XrgOUu7FRW2TFAl1q1r+3Uls0Y4Xyevi\n1F52DlSrKUJ84fpHIlhMhG8fGKTtAEOZ/CeSj4eUIjGqZe79/BAsEs1A5TZEKdlw\n24oeuMklhCeJ09Im/cU5FQJ18f6Ew8Dqmp7lLKsXoUA8hhBAPbcN7cb4cX6pvNWC\n+alZ9yX2sm4gs3cqjHPsLIEptJkaR469ZcSxqbBNtduS+DMRyhVD+M9ekjdv6aaE\nmRuFumWRtLtGvL9QfyOvTQPsp4eI/O4iZUH7A/W9L67WiYWDPhyknGd7fjIaEedS\n5wIDAQAB\n-----END PUBLIC KEY-----",
+    "soft_trigger_factor" : 0,
+    "idfa_tracking_enabled" : false,
+    "crisper_js1" : "// disabled",
+    "min_time_between_requests" : 180,
+    "navigation_bar" : "default_navigation_bar",
+    "crisper_js9" : "// disabled",
+    "ads_experience" : "export",
+    "__encryption_algorithm__" : "RSA2048PKCS1",
+    "crisper_js2" : "// disabled",
+    "subscription_trial_product_id" : "alightcreative.motion.1w_1w_t10",
+    "__privacy_policy_version__" : "1.0.0",
+    "__terms_of_service_url__" : "https://support.bendingspoons.com/tos.html?app=1459833443&version=1.2.0",
+    "__is_free__" : false,
+    "subscription_max_notrial_product_id" : "control",
+    "crisper_js3" : "// disabled",
+    "__min_required_build_version__" : "0.0.0",
+    "subscription_pro_notrial_product_id" : "control",
+    "monetization_js_code" : "function main(a){const b=a.appInfo[AppInfoKeys.active_benefits]??[],c=a.appInfo[AppInfoKeys.is_first_session]??!1,d=a.appInfo[AppInfoKeys.install_date_timestamp],e=Date.now(),f=getCurrentExperiments(),g=f[Experiments.first_bundle_subscription_oct_2022.name],h=f[Experiments.ad_monetization_first_experiment.name]??f[Experiments.ad_monetization_first_experiment_old_users.name],i=f[Experiments.interstitial_ads_first_experiment.name]??f[Experiments.interstitial_ads_first_experiment_old_users.name],j=f[Experiments.price_decrease_over_sessions.name]??f[Experiments.price_decrease_over_sessions_old_users.name];if(!(0<b.length)){if(a.hook===Hooks.on_intro_flow_completed){bumpAndStoreTimeSensitiveSessionCounter(j,e);const b=c?PaywallTypes.checkbox_max:PaywallTypes.checkbox_pro;return paywallForBundleAndPriceDiscriminationExperiment(b,g,j,readTimeSensitiveSessionCounter(),!1,a.hook)}if(a.hook===Hooks.did_tap_create_project){return paywallForBundleAndPriceDiscriminationExperiment(PaywallTypes.checkbox_pro,g,j,readTimeSensitiveSessionCounter(),!1,a.hook,function(){return interstitialAdsExperiment(i,d,e,null,a.hook)})}return a.hook.startsWith(Hooks.did_tap_export_project)?a.hook.endsWith(ProjectFormats.project_package)||a.hook.endsWith(ProjectFormats.cloudBackup)?paywallForBundleAndPriceDiscriminationExperiment(PaywallTypes.checkbox_pro,g,j,readTimeSensitiveSessionCounter(),!0,a.hook):a.hook.endsWith(ProjectFormats.template)||a.hook.endsWith(ProjectFormats.preset)?void 0:void 0!==h&&h!==Experiments.ad_monetization_first_experiment.control?rewardedAd(a.hook):void 0===h?rewardedAd(a.hook):void 0:a.hook===Hooks.did_tap_export_project_membership_options||a.hook===Hooks.did_tap_project_package_import_alert_membership_options?paywallForBundleAndPriceDiscriminationExperiment(PaywallTypes.checkbox_pro,g,j,readTimeSensitiveSessionCounter(),!1,a.hook):a.hook===Hooks.did_tap_watermark_delete||a.hook===Hooks.did_tap_watermark_delete_alert_membership_options?paywallForBundleAndPriceDiscriminationExperiment(PaywallTypes.checkbox_pro,g,j,readTimeSensitiveSessionCounter(),!0,a.hook):a.hook===Hooks.did_tap_advanced_easing_try||a.hook===Hooks.did_tap_layer_parenting_try||a.hook===Hooks.did_tap_camera_object_try||a.hook===Hooks.did_tap_watermark_delete_alert_try?void 0:a.hook.startsWith(Hooks.did_tap_premium_effect_alert_watch_ad)||a.hook===Hooks.did_tap_advanced_easing_watch_ad||a.hook===Hooks.did_tap_watermark_delete_alert_watch_ad?rewardedAd(a.hook):a.hook===Hooks.did_tap_layer_parenting_watch_ad||a.hook===Hooks.did_tap_camera_object_watch_ad?void 0:a.hook.startsWith(Hooks.did_tap_premium_effect_alert_membership_options)||a.hook===Hooks.did_tap_advanced_easing_membership_options||a.hook===Hooks.did_tap_account_membership_options||a.hook===Hooks.did_tap_effects_panel_menu_copy_premium_effects?paywallForBundleAndPriceDiscriminationExperiment(PaywallTypes.checkbox_pro,g,j,readTimeSensitiveSessionCounter(),!0,a.hook):a.hook===Hooks.did_tap_layer_parenting_membership_options||a.hook===Hooks.did_tap_camera_object_membership_options?paywallForBundleAndPriceDiscriminationExperiment(PaywallTypes.checkbox_max,g,j,readTimeSensitiveSessionCounter(),!0,a.hook):a.hook.startsWith(Hooks.did_tap_premium_effect_alert_try)||a.hook===Hooks.did_tap_home_screen_tab_home||a.hook===Hooks.did_tap_home_screen_tab_projects||a.hook===Hooks.did_tap_home_screen_tab_elements||a.hook===Hooks.did_tap_home_screen_plus_button||a.hook===Hooks.did_tap_open_project?interstitialAdsExperiment(i,d,e,null,a.hook):a.hook===Hooks.did_tap_main_editor_plus_button?interstitialAdsExperiment(i,d,e,InterstitialAdsExperimentHookSpecificCounter.did_tap_main_editor_plus_button,a.hook):a.hook===Hooks.did_tap_effect_panel_add_button?interstitialAdsExperiment(i,d,e,InterstitialAdsExperimentHookSpecificCounter.did_tap_effect_panel_add_button,a.hook):a.hook===Hooks.did_tap_add_keyframe_button?interstitialAdsExperiment(i,d,e,InterstitialAdsExperimentHookSpecificCounter.did_tap_add_keyframe_button,a.hook):a.hook===Hooks.on_export_completed?interstitialAd(a.hook):void 0}}function interstitialAdsExperiment(a,b,c,d,e){if(void 0===a||a===Experiments.interstitial_ads_first_experiment.control_segment)return;const f=a===Experiments.interstitial_ads_first_experiment.hard_frequency_day_1||a===Experiments.interstitial_ads_first_experiment.soft_frequency_day_1,g=c-b<TimeInterval.day;if(f&&g)return;var h=5,i=TimeInterval.minute;const j=a===Experiments.interstitial_ads_first_experiment.soft_frequency_day_0||a===Experiments.interstitial_ads_first_experiment.soft_frequency_day_1;j&&(h=10,i=2.5*TimeInterval.minute);const k=Crisper.storage;k.setScope(Experiments.interstitial_ads_first_experiment.name);var l=k.intForKey(InterstitialAdsExperimentKeys.triggers_count);if(null==d)l+=1;else{const a=e+\"_count\";var m=k.intForKey(a);m+=1,m>=d&&(l+=1,m=0),k.setIntForKey(m,a)}k.setIntForKey(l,InterstitialAdsExperimentKeys.triggers_count);const n=k.intForKey(InterstitialAdsExperimentKeys.last_show_timestamp),o=l>=h,p=c-n>i;if(o&&p)return k.setIntForKey(0,InterstitialAdsExperimentKeys.triggers_count),k.setIntForKey(Date.now(),InterstitialAdsExperimentKeys.last_show_timestamp),interstitialAd(e)}const InterstitialAdsExperimentKeys={triggers_count:\"triggers_count\",last_show_timestamp:\"last_show_timestamp\"},InterstitialAdsExperimentHookSpecificCounter={did_tap_main_editor_plus_button:5,did_tap_effect_panel_add_button:5,did_tap_add_keyframe_button:7};function paywallForBundleAndPriceDiscriminationExperiment(a,b,c,d,e,f,g=null){if(c===void 0||c===Experiments.price_decrease_over_sessions.control_segment)return paywallForBundleExperiment(a,b,e,f,g);else{const h=paywallTypeForBundleExperiment(a,b),i=productIDsForPaywallTypeAndPriceDiscriminationExperiment(h,c,d),j=i.normal,k=i.freeTrial;return paywall(f,h,j,k,e,g)}}function paywallTypeForBundleExperiment(a,b){return a===PaywallTypes.checkbox?PaywallTypes.checkbox:a===PaywallTypes.checkbox_pro?b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t6||b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t10||b===Experiments.first_bundle_subscription_oct_2022.control_pro_paywall?PaywallTypes.checkbox_pro:PaywallTypes.checkbox:a===PaywallTypes.checkbox_max?b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t6||b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t10?PaywallTypes.checkbox_max:b===Experiments.first_bundle_subscription_oct_2022.control_pro_paywall?PaywallTypes.checkbox_pro:PaywallTypes.checkbox:void 0}function productIDsForPaywallTypeAndPriceDiscriminationExperiment(a,b,c){return a===PaywallTypes.checkbox||a===PaywallTypes.checkbox_pro?productIDsForPriceDiscriminationExperiment(b,c):a===PaywallTypes.checkbox_max?productIDsPairT20:void 0}function productIDsForPriceDiscriminationExperiment(a,b){return a===Experiments.price_decrease_over_sessions.fast_decrease?between(b,0,3)?productIDsPairT10:between(b,4,7)?productIDsPairT8:between(b,8,14)?productIDsPairT6:between(b,15,22)?productIDsPairT4:productIDsPairT2:a===Experiments.price_decrease_over_sessions.slow_decrease?between(b,0,7)?productIDsPairT10:between(b,8,14)?productIDsPairT8:between(b,15,22)?productIDsPairT6:between(b,23,39)?productIDsPairT4:productIDsPairT2:a===Experiments.price_decrease_over_sessions.fewer_products?between(b,0,5)?productIDsPairT10:between(b,6,15)?productIDsPairT6:productIDsPairT4:void 0}function paywallForBundleExperiment(a,b,c,d,e=null){var f=PaywallTypes.checkbox,g=ProductIDs.p_1w_t10,h=ProductIDs.p_1w_1w_t10;switch(a){case PaywallTypes.checkbox:break;case PaywallTypes.checkbox_pro:b===Experiments.first_bundle_subscription_oct_2022.control_pro_paywall&&(f=PaywallTypes.checkbox_pro),b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t6&&(f=PaywallTypes.checkbox_pro,g=ProductIDs.p_1w_t6,h=ProductIDs.p_1w_1w_t6),b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t10&&(f=PaywallTypes.checkbox_pro);break;case PaywallTypes.checkbox_max:b===Experiments.first_bundle_subscription_oct_2022.control_pro_paywall&&(f=PaywallTypes.checkbox_pro),(b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t6||b===Experiments.first_bundle_subscription_oct_2022.max_and_pro_t10)&&(f=PaywallTypes.checkbox_max,g=ProductIDs.p_1w_t20,h=ProductIDs.p_1w_1w_t20);break;default:}return paywall(d,f,g,h,c,e)}function readTimeSensitiveSessionCounter(){return Crisper.storage.setScope(Experiments.price_decrease_over_sessions.name),Crisper.storage.intForKey(PriceDecreaseOverSessionsExperimentKeys.time_sensitive_sessions_count)}function bumpAndStoreTimeSensitiveSessionCounter(a,b){Crisper.storage.setScope(Experiments.price_decrease_over_sessions.name);const c=readTimeSensitiveSessionCounter(),d=c+1,e=productIDsForPriceDiscriminationExperiment(a,c),f=productIDsForPriceDiscriminationExperiment(a,d);if(e===f)return void Crisper.storage.setIntForKey(d,PriceDecreaseOverSessionsExperimentKeys.time_sensitive_sessions_count);const g=Crisper.storage.intForKey(PriceDecreaseOverSessionsExperimentKeys.last_decrease_timestamp),h=b-g<TimeInterval.day;h||(Crisper.storage.setIntForKey(d,PriceDecreaseOverSessionsExperimentKeys.time_sensitive_sessions_count),Crisper.storage.setIntForKey(b,PriceDecreaseOverSessionsExperimentKeys.last_decrease_timestamp))}const PriceDecreaseOverSessionsExperimentKeys={time_sensitive_sessions_count:\"time_sensitive_sessions_count\",last_decrease_timestamp:\"last_decrease_timestamp\"};function rewardedAd(a){return{__type:ExperienceTypes.ad,hook:a,adType:\"reward\",onFinish:a=>{if(\"ad/dismissed\"===a)return{__type:\"block_flow\"}}}}function interstitialAd(a){return{__type:\"ad\",hook:a,adType:\"interstitial\"}}function paywall(a,b,c,d,e,f=null){return{__type:ExperienceTypes.paywall,hook:a,paywallType:b,normalProductId:c,freeTrialProductId:d,onFinish:a=>\"paywall/purchased\"===a?void 0:\"paywall/dismissed\"===a&&null!==f?f():e?{__type:\"block_flow\"}:void 0}}function getCurrentExperiments(){const a=Crisper.pico.getUserInfo();return a.experiment??{}}function between(a,b,c){return a>=b&&a<=c}const Experiments={ad_monetization_first_experiment:{name:\"ad_monetization_first_experiment\",control:0,watermark_and_premium_features_unlocked_with_ads:1,premium_features_unlocked_with_ads:2,premium_features_unlocked_with_ads_no_try_it_first:3,ads_at_export_only:4},ad_monetization_first_experiment_old_users:{name:\"ad_monetization_first_experiment_old_users\",control:0,watermark_and_premium_features_unlocked_with_ads:1,premium_features_unlocked_with_ads:2,premium_features_unlocked_with_ads_no_try_it_first:3,ads_at_export_only:4},first_bundle_subscription_oct_2022:{name:\"first_bundle_subscription_oct_2022\",control:0,control_pro_paywall:1,max_and_pro_t6:2,max_and_pro_t10:3},interstitial_ads_first_experiment:{name:\"interstitial_ads_first_experiment\",control_segment:0,hard_frequency_day_0:1,soft_frequency_day_0:2,hard_frequency_day_1:3,soft_frequency_day_1:4},interstitial_ads_first_experiment_old_users:{name:\"interstitial_ads_first_experiment_old_users\",control_segment:0,hard_frequency_day_0:1,soft_frequency_day_0:2,hard_frequency_day_1:3,soft_frequency_day_1:4},price_decrease_over_sessions:{name:\"price_decrease_over_sessions\",control_segment:0,fast_decrease:1,slow_decrease:2,fewer_products:3},price_decrease_over_sessions_old_users:{name:\"price_decrease_over_sessions_old_users\",control_segment:0,fast_decrease:1,slow_decrease:2,fewer_products:3}},Hooks={on_intro_flow_completed:\"on_intro_flow_completed\",did_tap_create_project:\"did_tap_create_project\",did_tap_export_project:\"did_tap_export_project/\",did_tap_export_project_membership_options:\"did_tap_export_project_membership_options\",did_tap_project_package_import_alert_membership_options:\"did_tap_project_package_import/alert/membership_options\",did_tap_watermark_delete:\"did_tap_watermark/delete\",did_tap_watermark_delete_alert_membership_options:\"did_tap_watermark/delete/membership_options\",did_tap_watermark_delete_alert_watch_ad:\"did_tap_watermark/delete/watch_ad\",did_tap_watermark_delete_alert_try:\"did_tap_watermark/delete/try\",did_tap_premium_effect_alert_try:\"did_tap_premium_effect/try/\",did_tap_premium_effect_alert_membership_options:\"did_tap_premium_effect/membership_options/\",did_tap_premium_effect_alert_watch_ad:\"did_tap_premium_effect/watch_ad/\",did_tap_advanced_easing_try:\"did_tap_advanced_easing/try\",did_tap_advanced_easing_membership_options:\"did_tap_advanced_easing/membership_options\",did_tap_advanced_easing_watch_ad:\"did_tap_advanced_easing/watch_ad\",did_tap_layer_parenting_try:\"did_tap_layer_parenting/try\",did_tap_layer_parenting_membership_options:\"did_tap_layer_parenting/membership_options\",did_tap_layer_parenting_watch_ad:\"did_tap_layer_parenting/watch_ad\",did_tap_camera_object_try:\"did_tap_camera_object/try\",did_tap_camera_object_membership_options:\"did_tap_camera_object/membership_options\",did_tap_camera_object_watch_ad:\"did_tap_camera_object/watch_ad\",did_tap_account_membership_options:\"did_tap_account/membership_options\",did_tap_effects_panel_menu_copy_premium_effects:\"did_tap_effects_panel/menu/copy_premium_effects\",did_tap_home_screen_tab_home:\"did_tap_home_screen_tab/home\",did_tap_home_screen_tab_tutorials:\"did_tap_home_screen_tab/tutorials\",did_tap_home_screen_tab_projects:\"did_tap_home_screen_tab/projects\",did_tap_home_screen_tab_elements:\"did_tap_home_screen_tab/elements\",did_tap_home_screen_plus_button:\"did_tap_home_screen_plus_button\",did_tap_open_project:\"did_tap_open_project\",did_tap_main_editor_plus_button:\"did_tap_main_editor_plus_button\",did_tap_effect_panel_add_button:\"did_tap_effect_panel_add_button\",did_tap_add_keyframe_button:\"did_tap_add_keyframe_button\",on_export_completed:\"on_export_completed\"},ProductIDs={p_1w_t2:\"alightcreative.motion.1w_t2\",p_1w_1w_t2:\"alightcreative.motion.1w_1w_t2\",p_1w_t4:\"alightcreative.motion.1w_t4\",p_1w_1w_t4:\"alightcreative.motion.1w_1w_t4\",p_1w_t6:\"alightcreative.motion.1w_t6\",p_1w_1w_t6:\"alightcreative.motion.1w_1w_t6\",p_1w_t8:\"alightcreative.motion.1w_t8\",p_1w_1w_t8:\"alightcreative.motion.1w_1w_t8\",p_1w_t10:\"alightcreative.motion.1w_t10\",p_1w_1w_t10:\"alightcreative.motion.1w_1w_t10\",p_1w_t20:\"alightcreative.motion.1w_t20\",p_1w_1w_t20:\"alightcreative.motion.1w_1w_t20\"},productIDsPairT2={normal:ProductIDs.p_1w_t2,freeTrial:ProductIDs.p_1w_1w_t2},productIDsPairT4={normal:ProductIDs.p_1w_t4,freeTrial:ProductIDs.p_1w_1w_t4},productIDsPairT6={normal:ProductIDs.p_1w_t6,freeTrial:ProductIDs.p_1w_1w_t6},productIDsPairT8={normal:ProductIDs.p_1w_t8,freeTrial:ProductIDs.p_1w_1w_t8},productIDsPairT10={normal:ProductIDs.p_1w_t10,freeTrial:ProductIDs.p_1w_1w_t10},productIDsPairT20={normal:ProductIDs.p_1w_t20,freeTrial:ProductIDs.p_1w_1w_t20},PaywallTypes={checkbox:\"checkbox\",checkbox_pro:\"checkbox_pro\",checkbox_max:\"checkbox_max\"},ProjectFormats={project_package:\"project_package\",xml:\"xml\",video:\"video\",image_sequence:\"image_sequence\",png:\"png\",gif:\"gif\",template:\"template\",preset:\"preset\",cloudBackup:\"cloud_backup\"},AppInfoKeys={active_benefits:\"active_benefits\",is_first_session:\"is_first_session\",install_date_timestamp:\"install_date_timestamp\"},ExperienceTypes={paywall:\"paywall\",ad:\"ad\"},AdType={reward:\"reward\",interstitial:\"interstitial\"},TimeInterval={minute:60000,day:86400000};",
+    "export_menu_items" : [
+      "video",
+      "project_package",
+      "png",
+      "image_sequence",
+      "gif",
+      "xml"
+    ],
+    "subscription_pro_trial_product_id" : "control",
+    "crisper_js4" : "// disabled",
+    "hard_trigger_factor" : 1,
+    "__privacy_notice_url__" : "https://support.bendingspoons.com/privacy.html?app=1459833443&version=1.0.0",
+    "review_skip_survey" : true,
+    "onboarding_show_cards" : false,
+    "review_show_native_prompt_chance" : 0.5,
+    "tik_tok_alight_motion_url" : "https://www.tiktok.com/@alightmotion",
+    "__encryption_key_id__" : "53bfd4440016c",
+    "subscription_max_trial_product_id" : "control",
+    "max_requests_per_version" : 5,
+    "__experiments__" : {
+      "template_export_old_users" : 0,
+      "ad_monetization_first_experiment_old_users" : 4
+    }
+  },
+  "force_updater" : {
+    "suggested_build_version" : "0.0.0",
+    "suggested_update_frequency" : 0,
+    "action" : "do_nothing"
+  },
+  "legal_notifications" : {
+    "to_notify_privacy_policy" : false,
+    "to_notify_terms_of_service" : false
+  },
+  "products" : {
+    "consumables" : [
+      {
+        "status" : "APPROVED",
+        "product_id" : "am.tkt.rwmx1"
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "am.tkt.rwmx3"
+      }
+    ],
+    "subscriptions" : [
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.alightcreative.motion.sub.annual",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "com.alightcreative.motion.sub.monthly",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_t4",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_1w_t4",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_t6",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_1w_t6",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_t10",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_1w_t10",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_t2",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_1w_t2",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_1w_t20",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_t20",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_1w_t8",
+        "features" : [
+          "premium"
+        ]
+      },
+      {
+        "status" : "APPROVED",
+        "product_id" : "alightcreative.motion.1w_t8",
+        "features" : [
+          "premium"
+        ]
+      }
+    ],
+    "non_consumables" : [
+
+    ]
+  }
+}
+$done({body: JSON.stringify(obj)});
